@@ -3,14 +3,13 @@ import arrow from "../../../assets/banner/Container.png";
 import offer from "../../../assets/banner/offer.png";
 import app from "../../../assets/banner/app.png";
 import google from "../../../assets/banner/google.png";
+import SubHeading from "../../../components/customs/SubHeading";
 const Banner = () => {
   return (
     <div className=" bg-cover bg-[right_-300px_top_0px]  lg:bg-[right_0px_top_0px] pb-20   bg-no-repeat bg-96   bg-[url('assets/banner/Bg.png')]     ">
       <div className="pt-32  h-full lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl mx-auto px-5 lg:px-0  ">
         <div className=" md:w-[60%] space-y-5 ">
-          <h3 className="bg-slate-300 w-fit px-2 py-1 text-xs md:text-sm font-rubik font-medium text-green-600">
-            Welcome to fresh harvest
-          </h3>
+          <SubHeading subheading="Welcome to fresh harvest" />
           <h1 className=" text-[13vw] font-bold font-rubik md:text-[5vw] xl:text-[6rem]    leading-none ">
             Fresh Fruits and Vegetables
           </h1>
